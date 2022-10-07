@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                $("p").hide();
+            });
+            $(".btn2").click(function () {
+                $("p").show();
+            });
+            $(".anch").hover(function(){
+                $("p").hide();
+            });
+            
+        });
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maxime voluptatum nesciunt assumenda? Ex ipsum enim
+        quis molestias praesentium! Enim laboriosam ex consequatur facilis dolores sunt libero quisquam voluptas aut.
+    </p>
+
+    <button class="btn1">Hide</button>
+    <button class="btn2">Show</button>
+    <br>
+    <br>
+    <a href="" class="anch">A link</a>
+
+</body>
+
+</html>

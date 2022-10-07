@@ -1,0 +1,8 @@
+p:nth-of-type(odd){
+    background-color: brown;
+    font-style: italic;
+}
+p:nth-of-type(even){
+    background-color: rgb(24, 239, 239);
+    font-style: oblique;
+}

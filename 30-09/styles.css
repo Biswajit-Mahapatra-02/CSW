@@ -1,0 +1,9 @@
+h1{
+    background-color: aquamarine;
+}
+p:nth-of-type(odd){
+    background-color: beige;
+}
+p:nth-of-type(even){
+    background-color: blueviolet;
+}
