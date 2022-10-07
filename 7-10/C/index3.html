@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("h2").hide();
+                $("p").replaceWith("<p>jQuery Content Replacement Example<p/>");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h2>This element will get removed once the following button is clicked.</h2>
+    <p>JQuery Example Code</p>
+    <button>Hide and Replace</button>
+</body>
+
+</html>
