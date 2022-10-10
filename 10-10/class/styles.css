@@ -1,0 +1,25 @@
+thead {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+table,
+td {
+    border: 1px solid #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+form{
+    align-items: center;
+}
+input{
+    margin: auto;
+}
