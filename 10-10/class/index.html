@@ -18,14 +18,14 @@
 
 <body>
     <h1>Results</h1>
-    <table>
+    <table class="result-table">
         <thead>
             <tr>
                 <th colspan="3">Student report</th>
             </tr>
             <tr>
                 <td>Student</td>
-                <td>Course Marks</td>
+                <td>Course Name</td>
                 <td>Total Marks</td>
             </tr>
         </thead>
@@ -50,7 +50,13 @@
     </table>
     <form action="">
         <span>Enter name: </span>
-        <input type="text">
+        <input type="text" placeholder="Name"> <br>
+        <span>Enter Course Name: </span>
+        <input type="text" placeholder="Course Name"> <br>
+        <span>Marks: </span>
+        <input type="text" placeholder="Marks"> <br>
+
+        <button class="form-sub">Submit</button>
     </form>
 </tbody>
 </body>

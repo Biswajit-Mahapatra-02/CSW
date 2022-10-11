@@ -16,10 +16,16 @@ h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
+body{
+    text-align: center;
+}
 form{
     align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
 }
-input{
-    margin: auto;
+
+button{
+    margin-top: 10px;
 }
