@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+thead {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img{
+    width: 350px;
+}
