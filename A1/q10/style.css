@@ -1,0 +1,14 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+thead {
+  background-color: #333;
+  color: #fff;
+}
+table,
+td {
+  border: 1px solid #333;
+  font-family: inherit;
+  font-size: 25px;
+  text-align: center;
+}
