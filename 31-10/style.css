@@ -22,6 +22,10 @@
     position: sticky !important;
     top: 20px;
   }
+  .container4 #example-element {
+    position: fixed !important;
+    top: 20px;
+  }
   section{
     height: 1000px;
   }
