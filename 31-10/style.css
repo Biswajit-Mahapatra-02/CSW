@@ -1,0 +1,27 @@
+.container1 #example-element {
+    position: static !important;
+  }
+  .box {
+    display: inline-block;
+    background-color: green;
+    border: 3px solid blue;
+    width: 65px;
+    height: 65px;
+  }
+  .container2 #example-element {
+    position: relative !important;
+    top: 40px;
+    left: 40px;
+  }
+  .container3 #example-element {
+    position: absolute !important;
+    top: 40px;
+    left: 40px;
+  }
+  .container4 #example-element {
+    position: sticky !important;
+    top: 20px;
+  }
+  section{
+    height: 1000px;
+  }
