@@ -29,3 +29,18 @@
   section{
     height: 1000px;
   }
+
+  a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 200px;
+    text-align: center;
+  }
+  a:hover{
+    background-color: black;
+    color: red;
+    text-decoration: wavy;
+  }
+  a:active{
+    background-color: magenta;
+  }
