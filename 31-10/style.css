@@ -1,46 +1,72 @@
 .container1 #example-element {
-    position: static !important;
-  }
-  .box {
-    display: inline-block;
-    background-color: green;
-    border: 3px solid blue;
-    width: 65px;
-    height: 65px;
-  }
-  .container2 #example-element {
-    position: relative !important;
-    top: 40px;
-    left: 40px;
-  }
-  .container3 #example-element {
-    position: absolute !important;
-    top: 40px;
-    left: 40px;
-  }
-  .container4 #example-element {
-    position: sticky !important;
-    top: 20px;
-  }
-  .container4 #example-element {
-    position: fixed !important;
-    top: 20px;
-  }
-  section{
-    height: 1000px;
-  }
+  position: static !important;
+}
+.box {
+  display: inline-block;
+  background-color: green;
+  border: 3px solid blue;
+  width: 65px;
+  height: 65px;
+}
+.container2 #example-element {
+  position: relative !important;
+  top: 40px;
+  left: 40px;
+}
+.container3 #example-element {
+  position: absolute !important;
+  top: 40px;
+  left: 40px;
+}
+.container4 #example-element {
+  position: sticky !important;
+  top: 20px;
+}
+.container4 #example-element {
+  position: fixed !important;
+  top: 20px;
+}
+section {
+  height: 1000px;
+}
 
-  a{
-    color: aqua;
-    text-decoration: none;
-    font-size: 200px;
-    text-align: center;
-  }
-  a:hover{
-    background-color: black;
-    color: red;
-    text-decoration: wavy;
-  }
-  a:active{
-    background-color: magenta;
-  }
+a {
+  color: aqua;
+  text-decoration: none;
+  font-size: 200px;
+  text-align: center;
+}
+a:hover {
+  background-color: black;
+  color: red;
+  text-decoration: wavy;
+}
+a:active {
+  background-color: magenta;
+}
+.sudo {
+  width: 230px;
+  height: 195px;
+  margin: 50px;
+  background-image: url("https://images.unsplash.com/photo-1605190274516-3a9593ec1ccc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG5pZ2h0JTIwY2l0eSUyMHNjYXBlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+.sudo:hover {
+  background-image: url("https://images.unsplash.com/photo-1505812132958-9e2de6487c30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=798&q=80");
+}
+label {
+  background: green;
+  padding: 10px;
+}
+.one {
+  width: 100px;
+  display: none;
+  height: 100px;
+  background: red;
+  margin-top: 20px;
+}
+input[type="checkbox"] {
+  visibility: hidden;
+}
+input[type="checkbox"]:checked ~ .one {
+  display: block;
+}
