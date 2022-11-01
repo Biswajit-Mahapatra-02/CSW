@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+	color: black;
+}
+a:active{
+    color: blue;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+table,
+td {
+    border: 1px solid #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+tr:nth-of-type(even){
+    background-color: grey;
+}
+
+.css-selectors-list{
+    list-style-type: lower-roman;
+}
+.gal-html{
+    display: inline-block;
+}
