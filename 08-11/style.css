@@ -1,0 +1,21 @@
+.box1{
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    text-align: right;
+}
+.box2{
+    height: 413px;
+    width: 300px;
+    background-color: bisque ;
+    text-align: right;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.box3{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 186px;
+}
