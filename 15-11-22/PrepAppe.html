@@ -13,6 +13,7 @@
     <button class="btn1">Append</button> <button class="btn2">Prepend</button>
     <script>
         var count = 1;
+        var count1 = 1;
         $(document).ready(function () {
 
             $(".btn1").click(function () {
@@ -22,9 +23,9 @@
                 }
             });
             $(".btn2").click(function () {
-                if (count <= 5) {
-                    $(".p").prepend("<p> new paragraph number" + count + "</p>");
-                    count++;
+                if (count1 <= 5) {
+                    $(".p").prepend("<p> new paragraph number" + count1 + "</p>");
+                    count1++;
                 }
             });
         });
