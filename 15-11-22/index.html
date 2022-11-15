@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery classes continued</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        $(document).ready(function(){
+            $(".btn1").click(function(){
+                $("#p1").text("This paragraph is now changed to a new paragraph.");
+            });
+            $(".btn2").click(function(){
+                alert("HTML: " + $("#par").html());
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <label for="#p1"><button class="btn1">Button1</button> </label>
+    <p id="p1">This is paragraph</p>
+    <label for="#p2"><button class="btn2">Button 2</button></label>
+    <p id="p2">This is also a paragraph</p>
+    <label for="#google">Google: </label>
+    <a href="https://www.google.com/" id="google">A hyper link to the google homepage</a> <br><br>
+    <label for="#ti">A text input: </label>
+    <input type="text" id="ti" value="Default value">
+    
+</body>
+</html>
