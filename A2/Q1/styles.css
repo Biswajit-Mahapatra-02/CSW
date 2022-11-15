@@ -20,16 +20,6 @@ h1{
 body{
     text-align: center;
 }
-form{
-    align-items: center;
-    text-align: center;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-button{
-    margin-top: 10px;
-}
 
 .body tr:nth-of-type(odd){
     background-color: grey;
