@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQQ1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn1").click(function () {
+                $(".p1").hide(3000);
+            });
+            $(".btn2").dblclick(function () {
+                $(".p2").hide(5000);
+            });
+            $(".p3").click(function () {
+                $(".headings").hide();
+            });
+            $(".p4").hover(function () {
+                alert("This is an alert box");
+            });
+            $(".btn4").click(function () {
+                $(".lorem").fadeIn();
+            });
+            $(".btn3").click(function () {
+                $(".lorem").fadeOut();
+            });
+            $(".btn5").click(function () {
+                $(".jQ").fadeTo(1000, 0.4);
+            });
+            $(".btn6").click(function () {
+                $(".jQ").fadeTo(1000, 1.0);
+            });
+            $(".btn7").click(function () {
+                $(".lo").fadeToggle(3000);
+            });
+            $(".btn8").click(function () {
+                $(".lorem-ipsum").slideUp();
+            });
+            $(".btn9").click(function () {
+                $(".lorem-ipsum").slideDown();
+            });
+            $(".btn10").click(function () {
+                $(".lorem-ipsum").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p class="p1">Paragraph number 1</p>
+    <p class="p2">Paragraph number 2</p>
+    <p class="p3">Paragraph number 3</p>
+    <p class="p4">Paragraph number 4</p>
+    <h1 class="headings">Heading number 1</h1>
+    <h2 class="headings">Heading number 2</h2>
+    <h3 class="headings">Heading number 3</h3>
+    <button class="btn1">I am a button</button>
+    <button class="btn2">I am another button</button>
+    <hr>
+    <button class="btn3">Fade out</button><button class="btn4">Fade In</button>
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque debitis quam sunt incidunt tenetur
+        sapiente, consequatur blanditiis inventore, aperiam eius commodi modi, corrupti veritatis quo libero quibusdam!
+        Quam, atque culpa.</p>
+    <br>
+    <button class="btn5">Dim</button> <button class="btn6">Brighten</button>
+    <p class="jQ">A Boolean indicating whether to place the animation in the effects queue. If false, the animation will
+        begin immediately. As of jQuery 1.7, the queue option can also accept a string, in which case the animation is
+        added to the queue represented by that string. When a custom queue name is used the animation does not
+        automatically start; you must call .dequeue("queuename") to start it.</p>
+    <br>
+    <button class="btn7">Toggle paragraph</button>
+    <p class="lo">It is a long established fact that a reader will be distracted by the readable content of a page when
+        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
+        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
+        'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+        sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    <hr>
+    <p class="lorem-ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eligendi impedit reiciendis qui ut ipsum harum
+        corporis veniam sit culpa modi consequatur commodi, magnam, inventore eveniet error aperiam earum voluptatum.
+        Minus a vel assumenda, amet nesciunt ducimus provident cum, nobis magni incidunt ut officia possimus praesentium
+        ipsa temporibus facere at dolorum fuga itaque? Dicta incidunt repudiandae, voluptas cumque ipsa voluptate!
+        Nihil nesciunt aut voluptates sed minima veniam voluptatum neque saepe dolor eaque dolorem error impedit,
+        similique illo ea, culpa porro recusandae voluptatem reiciendis non. Officia rerum assumenda atque deleniti
+        nobis.
+        Vero ea repellendus aut eum assumenda non corrupti facilis quibusdam reiciendis illo. Assumenda magni hic a
+        obcaecati nisi aliquam rem debitis fuga iure temporibus! Atque adipisci quam id voluptates necessitatibus.
+        Quod inventore nobis minima vel, consectetur porro error placeat voluptate, recusandae ducimus eos. Eius
+        adipisci deleniti minus blanditiis voluptas ex iusto iste minima, veniam quae laboriosam, incidunt mollitia
+        porro doloremque.
+        Pariatur accusamus velit quia, quos beatae exercitationem rem reiciendis! Voluptatibus doloribus distinctio
+        molestiae optio vero recusandae provident autem fugiat. Quidem neque eaque vitae molestiae tenetur expedita est?
+        Quae, animi soluta?
+        Voluptatem dolorum illo nisi accusantium earum velit omnis quam ad quaerat eaque temporibus, praesentium
+        voluptatibus rem amet, distinctio similique. Quod, laboriosam facilis earum aliquam fugiat minima quos facere
+        voluptates excepturi?
+        Ipsa recusandae sequi iusto tenetur nostrum deserunt, distinctio natus, architecto dolore unde numquam non vel
+        earum necessitatibus alias autem. Adipisci quam consectetur aut cum molestiae quidem, sed harum tenetur veniam.
+        Mollitia laboriosam optio impedit, vitae reiciendis similique voluptate possimus officiis illum dolore facere
+        dolorem, amet voluptatem blanditiis minus odio veniam enim repudiandae et sunt! Architecto impedit quos corrupti
+        cum ea!
+        Nesciunt tenetur repudiandae voluptatum dolor. Tenetur totam assumenda aspernatur eligendi eaque, suscipit modi
+        autem, et obcaecati sapiente amet delectus optio laudantium vitae nesciunt quo eveniet officia pariatur, rem
+        placeat aperiam!</p>
+    <button class="btn8">Slide Up</button> <button class="btn9">Slide Down</button> <button class="btn10">Slide Toggle</button>
+</body>
+
+</html>
