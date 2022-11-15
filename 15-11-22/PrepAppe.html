@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>prepend demo</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+
+    <p class="p">A paragraph</p>
+    <button class="btn1">Append</button> <button class="btn2">Prepend</button>
+    <script>
+        var count = 1;
+        $(document).ready(function () {
+
+            $(".btn1").click(function () {
+                if (count <= 5) {
+                    $(".p").append("<p> new paragraph number" + count + "</p>");
+                    count++;
+                }
+            });
+            $(".btn2").click(function () {
+                if (count <= 5) {
+                    $(".p").prepend("<p> new paragraph number" + count + "</p>");
+                    count++;
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html
