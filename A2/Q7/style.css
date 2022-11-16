@@ -20,7 +20,7 @@ body{
   position: absolute;
   background-color: #c56363;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+  
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -35,6 +35,7 @@ body{
 
 .dropdown-content a:hover {
   background-color: #f1f1f1;
+  font-style: italic;
 }
 
 .dropdown:hover .dropdown-content {
@@ -50,20 +51,7 @@ a {
 nav {
   background-color: yellow;
 }
-#active {
-  background-color: blue;
-  display: inline;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-.logo {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
+
 h2{
     text-align: center;
 }
