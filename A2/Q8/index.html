@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>A2Q8</title>
-</head>
-<body>
-    <form action="">
-        <h3>A cool form</h3>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <h3>A cool form</h3>
+      <div class="UN">
         <label for="username">Enter your username:</label>
-        <input type="text" placeholder="Username" id="username" required>
-        <label for="password">Enter your password</label>
-        <input type="password" placeholder="Password" id="password" required>
-        <select name = "dropdown">
-            <option value = "Computer Architecture" selected>Computer Architecture</option>
-            <option value = "Java">Java</option>
-            <option value = "Discrete Mathematics">Discrete Mathematics</option>
-         </select>
-         <input type="submit" value="Submit!!!!!!">
+        <input type="text" placeholder="Username" id="username" required />
+      </div>
+      <div class="pass">
+        <label for="password">Enter your password:</label>
+        <input type="password" placeholder="Password" id="password" required />
+      </div>
+      <div class="dropdown">
+        <label for="courses">Courses</label>
+        <select name="dropdown" id="courses">
+          <option value="Computer Architecture" selected>
+            Computer Architecture
+          </option>
+          <option value="Java">Java</option>
+          <option value="Discrete Mathematics">Discrete Mathematics</option>
+        </select>
+      </div>
+      <input type="submit" value="Submit!!!!!!" />
     </form>
-</body>
+  </body>
 </html>
