@@ -3,8 +3,8 @@ img{
 	width: 1000px;
 }
 .hover{
-	color: magenta;
+	color: black;
 }
 .hover:hover{
-	color:red;
+	color:#a5a5a5;
 }
