@@ -1,0 +1,45 @@
+.bgi{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Taj_Mahal_Sunset_Edit1.jpg/1920px-Taj_Mahal_Sunset_Edit1.jpg);
+    height: 4000px;
+}
+#bar{
+    position: fixed;
+    top: 300px;
+    background-color: black;
+    padding: 20px;
+    padding-left: 702px;
+    padding-right: 702px;
+    margin-left: 0px;
+}
+.btn-active{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-bottom: solid 2px white;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 5px;
+    transition: 1.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#bar:hover .btn{
+    border-bottom: solid 2px white;
+}
+
+.p{
+    background-color: grey ;
+    color: black;
+    position: sticky;
+    top: 379px;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+}
