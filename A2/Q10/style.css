@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+form {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(212, 212, 212);
+}
+div {
+  margin: 10px;
+  margin-left: -70px;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+.radio {
+  display: inline-block;
+  width: 80px;
+}
+input{
+  padding: 10px;
+  border: solid 2px blue;
+  border-radius: 5px;
+}
+#city{
+  border: solid 2px blue;
+  border-style: inset;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#su{
+  margin-bottom: 10px;
+  width: 80%;
+  background-color: #e26b6b;
+  border: none;
+}
+img{
+  height: 50px;
+  width: 50px;
+}
+.logo{
+  position: relative;
+  left: 15%;
+}
