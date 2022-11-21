@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A2Q10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/en/c/c5/Siksha_%E2%80%98O%E2%80%99_Anusandhan.png" alt="soa"></div>
+      <h3>Registration</h3>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter Username..." />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter Email..." />
+      </div>
+      <div>
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile" placeholder="Enter Mobile Number..." />
+      </div>
+      Gender:
+      <label for="male" class="radio">
+        <input type="radio" value="male" id="male" name="male" /> Male
+      </label>
+      <label for="female" class="radio">
+        <input type="radio" value="female" id="female" name="female" /> Female
+      </label>
+      <div>
+        <label for="city">City</label>
+        <select name="city" id="city">
+          <option value="" selected>Select City:</option>
+          <option value="bbsr">Bhubaneswar</option>
+          <option value="cuttack">Cuttack</option>
+        </select>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter Password..." required />
+      </div>
+      <input type="submit" value="Sign Up" id="su">
+    </form>
+  </body>
+</html>
