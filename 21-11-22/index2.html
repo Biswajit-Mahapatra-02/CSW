@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,22 @@
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-         $(document).ready(function () {
-            $(".btn").click(function(){
+        $(document).ready(function () {
+            $(".btn").click(function () {
                 $("p").css("color", "red");
-				$("p").css("font-size", "25px");
-				$("h1").css("font-style", "italic");
+                $("p").css("font-size", "25px");
+                $("h1").css("font-style", "italic");
             });
         });
     </script>
     <style>
-        p{
-            font-size: 15px ;
+        p {
+            font-size: 15px;
             color: blue;
         }
     </style>
 </head>
+
 <body>
     <p>This is paragraph 1</p>
     <p>This is paragraph 2</p>
@@ -32,4 +34,5 @@
     <h1>This is heading 4</h1>
     <button class="btn">A button</button>
 </body>
+
 </html>
