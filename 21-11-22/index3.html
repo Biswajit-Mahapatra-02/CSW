@@ -8,11 +8,8 @@
         $(document).ready(function () {
             $('#hit').click(function () {
                 let del = "." + $('#term').val();
-                console.log(del);
-                if ((del).length)
-                    $(del).remove();
-                else
-                    alert("Element not found")
+                if ((del).length) { $(del).remove(); }
+                else { alert("Element not found"); }
             });
         })
     </script>
