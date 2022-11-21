@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     <script>
-
+        $(document).ready(function () {
+            $('#hit').click(function () {
+                let del = "." + $('#term').val();
+                console.log(del);
+                if ((del).length)
+                    $(del).remove();
+                else
+                    alert("Element not found")
+            });
+        })
     </script>
 </head>
+
 <body>
-    <input type="text">
-    <button>Button</button>
-    <p>This is paragraph number 1</p>
-    <p>This is paragraph number 2</p>
-    <p>This is paragraph number 3</p>
-    <h1>This is a h1 element</h1>
-    <h1>This is another h1 element</h1>
-    <h1>This is the final h1 element</h1>
+    <input id="term" type="text" placeholder="enter your search" />
+    <button id="hit" type="button" name="">Search</button>
+    <p class="p1">This is paragraph number 1</p>
+    <p class="p2">This is paragraph number 2</p>
+    <p class="p3">This is paragraph number 3</p>
+    <h1 class="h1">This is a h1 element</h1>
+    <h1 class="h2">This is another h1 element</h1>
+    <h1 class="h3">This is the final h1 element</h1>
+    <h2 class="h21">This is a h2</h2>
+    <h2 class="h22">This is another h2</h2>
+    <h2 class="h23">This is another h2</h2>
+    <h2 class="h24">This is final h2</h2>
+    <p class="pl">
+        An annoyingly big lorem paragraph
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nihil accusamus aperiam quo omnis, amet
+        commodi molestias qui perferendis excepturi, vero beatae veritatis quod facilis suscipit ratione nemo
+        laudantium! Quos!
+        Nihil cupiditate excepturi amet qui vero, at explicabo, repellat laudantium, dignissimos suscipit sunt. Dolor,
+        rem eveniet! Repellat consequatur excepturi harum aut provident? Delectus, perspiciatis architecto id
+        praesentium fugiat libero alias!
+        Quas eum est minima accusamus libero magni, omnis quam molestiae rerum nostrum. Sint, ullam ut quas porro
+        architecto dolores nulla aliquid? Laboriosam similique, error optio cumque quisquam veniam tempora? Tempora.
+    </p>
 </body>
+
 </html>
