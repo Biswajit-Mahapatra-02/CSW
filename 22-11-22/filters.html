@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        /* .s * {
+            display: block;
+            border: 3px solid green;
+            color: green;
+            padding: 6px;
+            margin: 18px;
+        } */
+
+        .btn {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        #reset {
+            display: block;
+        }
+
+        #box {
+            border: none !important;
+            color: black !important;
+            text-decoration: underline !important;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $("h2").nextAll().css({"color": "blue", "border": "3px solid blue" });
+            $("#btn1").click(function () {
+                $("div").first().css("background-color", "lightgreen");
+            });
+            $("#btn2").click(function () {
+                $("div").last().css("background-color", "lightgreen");
+            });
+            $("#btn3").click(function () {
+                $("div").eq(1).css("background-color", "lightgreen");
+            });
+            $("#reset").click(function () {
+                $(".s *").css({
+                    "display": "block",
+                    "border": "3px solid green",
+                    "color": "green",
+                    "padding": "6px",
+                    "margin": "18px"
+                });
+                $(".btn").css({
+                    "display": "inline-block",
+                    "cursor": "pointer"
+                })
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>How To Use First Method for Traversing?</h1>
+    <p>This paragraph does not belong to any div element.</p>
+    <div style="border: 3px solid blue;">
+        <p>This is the first paragraph in this div.</p>
+        <p>This is the second paragraph in this div.</p>
+    </div>
+    <br>
+    <div style="border: 3px solid blue;">
+        <p>This is the first paragraph in this div.</p>
+        <p>This is the second paragraph in this div.</p>
+    </div>
+    <br>
+    <div style="border: 3px solid blue;">
+        <p>This is the first paragraph in this div.</p>
+        <p>This is the second paragraph in this div.</p>
+    </div>
+    <div class="box">
+        <h2 id="box">Filtering</h2>
+        <button class="btn" id="btn1">first</button>
+        <button class="btn" id="btn2">last</button>
+        <button class="btn" id="btn3">eq</button>
+    </div>
+</body>
+
+</html>
