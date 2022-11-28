@@ -44,9 +44,34 @@
     <script>
         $(document).ready(function () {
             $(window).bind('beforeunload', function () {
-                return 'Are you sure you want to leave?';
+                return '';
             });
         });
+
+
+        // window.addEventListener("beforeunload", function (e) {
+        //     var confirmationMessage = 'It looks like you have been editing something. '
+        //         + 'If you leave before saving, your changes will be lost.';
+
+        //     (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+        //     return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+        // });
+
+        // const beforeUnloadListener = (event) => {
+        //     event.preventDefault();
+        //     return event.returnValue = "Are you sure you want to exit?";
+        // };
+
+        // const nameInput = document.querySelector("#name");
+
+        // nameInput.addEventListener("input", (event) => {
+        //     if (event.target.value !== "") {
+        //         addEventListener("beforeunload", beforeUnloadListener, { capture: true });
+        //     } else {
+        //         removeEventListener("beforeunload", beforeUnloadListener, { capture: true });
+        //     }
+        // });
+
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
