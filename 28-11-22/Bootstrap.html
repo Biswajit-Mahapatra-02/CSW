@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        p {
+            margin-top: 10px;
+        }
+
+        move {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Types of buttons in Bootstrap</h1>
+        <div type="button" class="btn btn-success btn-lg">Success Button</div>
+        <div type="button" class="btn btn-warning">Warning Button</div>
+        <div type="button" class="btn btn-danger">Danger Button</div>
+        <div type="button" class="btn btn-primary">Primary Button</div>
+        <div type="button" class="btn btn-secondary">Secondary Button</div>
+        <div type="button" class="btn btn-link">Link Button</div>
+        <div type="button" class="btn btn-dark">Dark Button</div>
+        <div type="button" class="btn btn-info">Info Button</div>
+        <div type="button" class="btn btn-light">Light Button</div>
+    </div>
+
+    <div class="container">
+        <p>A grouped set of buttons using .btn-group attribute of bootstrap 4</p>
+        <div class="btn-group">
+            <button class="btn btn-primary">Enter</button>
+            <button class="btn btn-primary">Cancel</button>
+            <button class="btn btn-primary">Reset</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>A grouped set of vertical buttons using .btn-group-vertical attribute of bootstrap 4</p>
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary">Enter</button>
+            <button class="btn btn-primary">Cancel</button>
+            <button class="btn btn-primary">Reset</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>A grouped set of horizontal buttons using .btn-group attribute of bootstrap 4 with a dropdown menu</p>
+        <div class="btn-group">
+            <button class="btn btn-primary">Cybersecurity</button>
+            <button class="btn btn-primary">Mobile App Development</button>
+            <div class="btn-group">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Website Development</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">HTML</a>
+                    <a href="#" class="dropdown-item">CSS</a>
+                    <a href="#" class="dropdown-item">Bootstrap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>A simple progress bar</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Different sizes of progress bar using bootstrap</h2>
+        <div class="progress" style="height: 50px;">
+            <div class="progress-bar" style="width: 80%; height: 50px;">80%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 25px;">
+            <div class="progress-bar" style="width: 60%; height: 25px;">60%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 10px;">
+            <div class="progress-bar" style="width: 40%; height: 10px;">40%</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Lively Progress Bar</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;">Loading</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Pagination example</h2>
+        <ul class="pagination">
+            <li class="page-item"><a href="#" class="page-link">Last</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item active"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item"><a href="#" class="page-link">6</a></li>
+        </ul>
+    </div>
+
+    <div id="demo" class="carousel slide move" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1603610882058-6b50795f187a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1258&q=80"
+                   style="margin-left: 400px;" alt="London" width="1280" height="720">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1606106931154-e644430401aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1253&q=80"
+                   style="margin-left: 400px;" alt="Berlin" width="1280" height="720">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1617650728468-8581e439c864?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                   style="margin-left: 400px;" alt="Zurich" width="1280" height="720">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1616961766699-0205f53b879e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80"
+                   style="margin-left: 400px;" alt="Venice" width="1280" height="720">
+            </div>
+            <div class="carousel-item">
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
