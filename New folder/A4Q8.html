@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stacked Forms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css
+/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.
+js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<script>
+
+    $(document).ready(function () {
+        $(".file-upload").on('change', function () {
+            readURL(this);
+        });
+
+        $(".upload-button").on('click', function () {
+            $(".file-upload").click();
+        });
+    });
+
+</script>
+<!-- <style>
+    body {
+  background-color: #efefef;
+}
+
+.profile-pic {
+    width: 200px;
+    max-height: 200px;
+    display: inline-block;
+}
+
+.file-upload {
+    display: none;
+}
+.circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 72px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+  position: absolute;
+  top: 167px;
+  right: 30px;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1.2em;
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+</style> -->
+
+<body>
+    <h1>🔗Avatar Upload Example 1</h1>
+    <br>
+    <br>
+    <br>
+    <!-- <div class="row ">
+        <div class="col " style="background-color:white;">
+            <div class="small-12 medium-2 large-2 columns">
+                <!-- <div class="circle"> -->
+    <!-- <img class="profile-pic"
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWkSWLRxX42sG_oDs7OlqF2x2Vs88aEBqyWA&usqp=CAU"> -->
+
+    <!-- </div>
+            <div class="p-image">
+                <!-- <i class="fa fa-camera upload-button"></i> -->
+    <!-- <input class="file-upload" type="file" accept="image/*" />
+                <button type="submit" class="btn btn-secondary">Upload</button>
+                 -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <div class="column">
+        <div class="container float-left w-10" style="background-color:white;">
+            <div class="container w-10">
+                <div class="mb-1 w-25">
+                    <div class="text-left d-inline">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp
+           " alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                        <h5 class="square">Parthiv Ghose</h5>
+                        <p class="text-muted mb-1">Full Stack Developer</p>
+                        <p class="text-muted mb-4">Iter,Bhubaneswar</p>
+                    </div>
+                </div>
+                <div class="container-sm">
+                    <div class="p-image w-25">
+                        <i class="fa fa-camera upload-button"></i>
+                        <input class="file-upload" type="file" accept="image/*" />
+                        <div class="mb-2">
+                            <button type="submit" class="btn btn-secondary w-20">Upload</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row align-top" style="background-color:white;">
+        <div class="float-left container" style="z-index: 1; position: relative; right: 900px">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Type Your Email Address"
+                        name="email">
+                </div>
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Type Your First Name"
+                        name="firstname">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row" style="background-color:white;">
+        <div class="container" style="z-index: 1; position: relative; bottom: 210px; right: 550px ;">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="pwd">Password</label>
+                    <input type="password" class="form-control" id="pw" placeholder="Type Your Password"
+                        name="password">
+                </div>
+                <div class="form-group">
+                    <label for="name">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Type Your Last Name"
+                        name="lastname">
+                </div>
+
+            </form>
+        </div>
+
+</body>
+
+</html>
