@@ -43,6 +43,7 @@
     </table>
 
     <div class="container">
+      <h2>Addition</h2>
       <form action="#">
         <div class="form-group">
           <label for="name">Name</label>
@@ -79,22 +80,39 @@
             required
           />
         </div>
-        <button type="submit" class="btn btn-primary" id="onclick">
+        <button type="submit" class="btn btn-outline-primary" id="onclick">
           Proceed
         </button>
       </form>
     </div>
-
+    <div class="container">
+      <h2>Removal</h2>
+      <input id="term" type="text" class="form-control" placeholder="enter your search" />
+      <button id="hit" type="button" class="btn btn-outline-primary" name="">Search</button>
+    </div>
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <script>
-        let name,marks,Course
+      let name, marks, Course;
       $(document).ready(function () {
         $("#onclick").click(function () {
           name = $("#name").val();
           marks = $("#marks").val();
           Course = $("#Course").val();
-          $(".tbd").append("<tr><td>"+name+"</td><td>"+Course+"</td><td>"+marks+"</td></tr>")
+          $(".tbd").append(
+            "<tr><td>" +
+              name +
+              "</td><td>" +
+              Course +
+              "</td><td>" +
+              marks +
+              "</td></tr>"
+          );
         });
+        $('#hit').click(function () {
+                let del = "#" + $('#term').val();
+                if ((del).length) { $(del).remove(); }
+                else { alert("Element not found"); }
+            });
       });
     </script>
     <script
